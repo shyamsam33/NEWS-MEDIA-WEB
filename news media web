@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>News Media Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+.body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+.nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.main {
+	padding: 20px;
+}
+
+.article {
+.footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.article h2 {
+	font-size: 24px;
+	margin-top: 0;
+}
+
+.article p {
+	line-height: 1.5;
+}
+
+	text-align: center;
+}
+</style>
+
+<body>
+	<header>
+		<h1>News Media Website</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Politics</a></li>
+				<li><a href="#">Business</a></li>
+				<li><a href="#">Sports</a></li>
+				<li><a href="#">Entertainment</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<article>
+			<h2>Breaking News Headline</h2>
+			<p>Here is the article text.</p>
+			<p>More article text here.</p>
+			<p>Even more article text here.</p>
+		</article>
+		<article>
+			<h2>Another Breaking News Headline</h2>
+			<p>Here is the article text.</p>
+			<p>More article text here.</p>
+			<p>Even more article text here.</p>
+		</article>
+	</main>
+	<footer>
+		<p>Copyright © 2023 News Media Website</p>
+	</footer>
+</body>
+</html>
